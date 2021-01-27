@@ -18,6 +18,7 @@ interface TourGuideZoneByPositionProps {
   keepTooltipPosition?: boolean
   tooltipBottomOffset?: number
   text?: string
+  data?: any
 }
 
 export const TourGuideZoneByPosition = ({

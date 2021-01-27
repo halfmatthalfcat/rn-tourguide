@@ -17,6 +17,7 @@ interface Props {
   borderRadius?: number
   keepTooltipPosition?: boolean
   tooltipBottomOffset?: number
+  data?: any
 }
 
 export class ConnectedStep extends React.Component<Props> {
